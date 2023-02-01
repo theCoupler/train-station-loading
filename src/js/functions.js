@@ -8,7 +8,6 @@ const loadTable = (departures) => {
     let row = document.createElement("tr");
 
     for (const key in departure) {
-      console.log(departure);
       let data = document.createElement("td");
       data.className = `board__${key}`;
       if (key == "time") {
